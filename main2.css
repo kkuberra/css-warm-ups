@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 10px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.poster {
+    flex: wrap;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    width: 500px;
+    background-color: #1A1A1A;
+}
+
+.star-destroyer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftTriangle {
+    width: 0;
+    height: 0;
+    border-top: 190px solid #404040;
+    border-left: 220px solid transparent;
+}
+
+.rightTriangle {
+    width: 0;
+    height: 0;
+    border-top: 190px solid #999999;
+    border-right: 220px solid transparent;
+}
